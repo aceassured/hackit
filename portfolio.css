@@ -4,6 +4,9 @@ a {
   color: black;
   font-weight: 600;    
 }
+p {
+  line-height: 27px;
+}
 body {
   margin: 0;
   padding: 0;

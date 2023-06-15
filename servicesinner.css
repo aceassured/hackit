@@ -4,6 +4,9 @@ a {
   color: black;
   font-weight: 600;
 }
+p {
+  line-height: 27px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -57,6 +60,7 @@ a {
     margin: auto;
     display: flex;
     align-items: center;
+    gap: 20px;
   }
   .Why_Hackit .Why_Hackit_boxe1 div {
     width: 400px;
@@ -78,6 +82,7 @@ a {
     width: 900px;
     margin-right: 20px;
     flex-grow: 1;
+    gap: 20px;
   }
   .Headers .Logo_favicon {
     margin-left: 20px;
@@ -256,6 +261,15 @@ a {
 .SandCS p{  
   line-height: 27px;  
 }
+@media screen and (max-width:1919px) and (min-width:1601px) {
+  .Contact_Us img {
+    width: 700px;
+  }
+  .Contact_Us .CUP1 {    
+    width: 1500px;       
+    flex-grow: 1;
+  }
+}
 @media screen and (min-width: 1440px) and (max-width: 1600px) {
   .Contact_Us .LCnt h3 {
     width: 100%;
@@ -273,30 +287,34 @@ a {
     width: 500px;
   }
   .Contact_Us img {
-    width: 500px;
+    width: 400px;
   }
   .Contact_Us .CUP1 {
     margin: auto;
-    width: 1025px;
+    width: 900px;
   }
   .Contact_Us .LCnt p {
     width: 500px;
   }
 }
-@media screen and (max-width: 1024px) {
-  .Contact_Us .LCnt h3 {
-    width: 400px;
+@media screen and (max-width: 1025px) and (min-width:770px) {
+  .Contact_Us .LCnt {        
+    width: 350px;
+  }
+  .Contact_Us .LCnt h3 {    
     font-size: 40px;
+    width: 100%;
   }
   .Contact_Us .LCnt p {
-    width: 400px;
+    width: 100%;
   }
   .Contact_Us img {
-    width: 400px;
+    width: 300px;    
   }
-  .Contact_Us .CUP1 {
+  .Contact_Us .CUP1 {    
+    width: 700px;
     margin: auto;
-    width: 750px;
+    flex-shrink: 1;
   }
 }
 @media screen and (max-width: 769px) {
@@ -628,7 +646,7 @@ a {
     width: 1025px;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1025px) and (min-width:770px) {
   .Our_Customers_Logo .Our_Customers_Desc {
     display: none;
   }
@@ -801,10 +819,10 @@ a {
 .SandCS .RPW {
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;  
   align-items: center;
   height: 526px;
-  width: 1639px;
+  width: 1600px;
   margin: auto;
   border: 1px solid #c7c7c7;
   border-radius: 6px;
@@ -834,6 +852,7 @@ a {
 .SandCS .RPW .W {
   height: 435px;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -874,12 +893,15 @@ a {
 }
 
 @media screen and (max-width: 1600px) and (min-width: 1441px) {
-  .SandCS .RPW {
-    width: 1550px;
-    margin: auto;
+  .SandCS .RPW {    
+    width: auto;   
+    margin-left: 20px;
+    margin-right: 20px;
+    /* flex-grow: 1; */
   }
+
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width:1599px) {
   .SandCS .RPW {
     height: auto;
   }
@@ -901,9 +923,26 @@ a {
   }
 }
 @media screen and (max-width: 1439px) and (min-width: 1026px) {
+  .SandCS {
+    /* background-color: #d6d6d6; */
+  }
   .SandCS .SandCSdisc {
+    flex-grow: 1;
+    width: 900px;    
+  }
+  .SandCS_Details {
+    width: 100%;        
+  }
+  .SandCS .SandCS_Details .SandCS_Details_M {    
     width: 1025px;
   }
+  .SandCS .SandCS_Details .SandCS_Details_cnt {        
+    width: 500px;
+  }    
+  .SandCS .SandCS_Details .SandCS_Details_cnt p {
+    width: 100%;
+  }
+
   .SandCS h2 {
     width: 850px;
     margin: auto;
@@ -913,11 +952,11 @@ a {
     width: 1025px;
   }
   .SandCS .RPW p {
-    width: 300px;
+    width: 300px;    
 }
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1025px ) and (min-width:770px)  {
   .SandCS .SandCSdisc {
     width: 80%;
   }
@@ -925,7 +964,8 @@ a {
     display: grid;
     width: 90%;
     border: none;
-    box-shadow: 0 0 0;
+    box-shadow: 0 0 0;    
+    height: auto;
   }
   .SandCS .RPW p {
     width: 90%;
@@ -940,7 +980,7 @@ a {
     justify-content: space-evenly;
   }
   .SandCS .SandCS_Details .SandCS_Details_M {
-    width: 900px;
+    width: 100%;
     margin: auto;
   }
   .SandCS .SandCS_Details p {
@@ -948,10 +988,14 @@ a {
   }
 }
 @media screen and (max-width: 769px) {
-  .SandCS .RPW {
-    height: 1557px;
-    align-items: center;
-    justify-content: center;
+  .SandCS .SandCSdisc {
+    width: 100%;
+    padding: 0 30px 0 30px;
+  }
+  .SandCS .RPW {    
+    height: auto;
+    display: flex;    
+    flex-direction: column;
     width: 526px;
     border: 1px solid #9b9a9a;
     border-radius: 16px;
@@ -1096,7 +1140,7 @@ a {
   grid-gap: 24px;
 }
 .Contact_Form .Form .PInfo input {
-  width: 376px;
+  width: 336px;
   height: 46px;
   border-radius: 10px;
   border: 1px solid #8b8a8a;
@@ -1120,6 +1164,18 @@ a {
   height: 46px;
   border: none;
   border-radius: 10px;
+}
+@media screen and (max-width:1919px) and (min-width:1601px) {
+  .Contact_Form .CForm_All img {
+    width: 650px;
+  }
+  .Contact_Form .CForm_All {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 1600px) and (min-width: 1438px) {
   .Contact_Form .CForm_All img {
@@ -1155,7 +1211,7 @@ a {
   }
   .Contact_Form .Form {
     width: 700px;
-    margin: auto;
+    margin: auto;    
   }
 
   .Contact_Form .Form .PInfo input {
@@ -1169,7 +1225,7 @@ a {
     place-items: center;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1025px) and (min-width:770px) {
   .Contact_Form .CForm_All {
     width: 100%;
   }
@@ -1178,11 +1234,16 @@ a {
   }
   .Contact_Form .Form {
     margin: auto;
+    width: 100%;
+    margin: 0 10px 0 10px;
   }
 }
 @media screen and (max-width: 769px) {
   .Contact_Form .CForm_All {
     width: 706px;
+  }
+  .Contact_Form .CForm_All img{
+    
   }
   .Contact_Form .Form {
     width: 100%;

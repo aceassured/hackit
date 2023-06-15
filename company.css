@@ -12,6 +12,9 @@ a {
     font-weight: 600;    
 }
 
+p {
+    line-height: 27px;
+}
 .Headers{   
     border-radius: 0 0 10px 10px; 
     background-color: #ffffff;
