@@ -253,6 +253,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.SandCS p{  
+  line-height: 27px;  
+}
 @media screen and (min-width: 1440px) and (max-width: 1600px) {
   .Contact_Us .LCnt h3 {
     width: 100%;
