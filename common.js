@@ -4,7 +4,6 @@ const SkillSetsInner = document.querySelector('.SkillSet_Container_inner')
 const allImages = document.querySelectorAll('.SkillSet_Container_inner img')
 const leftArrow = document.querySelector('.leftArrow')
 const rightArrow = document.querySelector('.rightArrow')
-const BASE_URL = 'http://localhost:5000'
 const button = document.querySelectorAll('button')
 
 burger.addEventListener('click', () => {

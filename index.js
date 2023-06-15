@@ -12,21 +12,25 @@ const box3 = document.querySelectorAll('.Why_Hackit_boxe3 div .desc')
 //     item.style.display = "none"
 // }))
 
+const BASE_URL = 'http://localhost:5000'
+
+console.log(footerSubmit )
 
 
 
 
-const handleSubmit = async(e) => {    
-    console.log(e);
-    e.preventDefault()        
-    const email = FooterEmail.value
+const handleSubmit = async() => {             
+    const email = footerSubmit.value
     if(email === '') {
         alert('please enter your email')
         return;
     }
     try {
         const final = await axios.post(`${BASE_URL}/email`,{email})           
-        console.log(final.data)             
+        if(final.status === 200) {
+            alert('You will be notified about updated')
+            footerSubmit.value = ""
+        }
     } catch (error) {
         console.log(error.message)
         alert(error.message)
@@ -34,4 +38,7 @@ const handleSubmit = async(e) => {
       
 }
 
-footerSubmit.forEach(item => item.addEventListener('click',handleSubmit))
+footerSubmit.forEach(item => item.addEventListener('click',(e) => {
+    e.preventDefault()
+    handleSubmit()    
+}))

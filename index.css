@@ -2042,12 +2042,6 @@ body{
     width: 800px;
     margin: auto;
 }
-/* .comments {
-    background-image: url(./assets/background/Group\ 378.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-} */
 .FeedBack .comments {   
     /* background-color: #437EF7;     */
     display: flex;
@@ -2092,11 +2086,12 @@ body{
     width: 130px;
 }
 
-@media screen and (max-width:1441px) { 
+@media screen and (min-width:1440px) and (max-width:1600px) { 
     .FeedBack .comments {    
-        gap: 20px;        
+        gap: 0px;            
     }
     .FeedBack .comments .FBox {
+        flex-grow: 1;
         width: 390px;
     }
 }
