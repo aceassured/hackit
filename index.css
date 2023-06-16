@@ -16,7 +16,7 @@ button {
 }
 
 body{    
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -1215,23 +1215,23 @@ body{
     }
 }
 
-@media screen and (max-width:1441px) {
+@media screen and (max-width:1599px) and (min-width:1440px) {
     .Our_Customers_Logo .Bubbles{ 
         margin: auto;
         overflow: hidden;
-        width: auto;        
+        max-width: 1243px;        
         position: relative;    
         height: 500px;    
     }
  }
- @media screen and (max-width:1025px) {    
+ @media screen and (max-width:1439px) and (min-width:1024px) {    
     .Our_Customers_Logo .Our_Customers_Desc{
         display: none;
     }    
     .Our_Customers_Logo .Bubbles{ 
         margin: auto;
         overflow: hidden;
-        width: auto;        
+        max-width: 1024px;        
         position: relative;    
         height: 500px;    
     }
@@ -1239,16 +1239,16 @@ body{
         display: none;
     }
  }
- @media screen  and (max-width:768px){      
+ @media screen  and (max-width:1023px) {      
     .Our_Customers_Logo h2{        
         text-align: center;
         margin-left: 14px;
     }  
-    .Our_Customers_Logo .Bubbles{ 
-        width: 425px;
+    .Our_Customers_Logo .Bubbles{         
+        max-width: 400px;        
         margin: auto;
         overflow: hidden;
-        width: 375px;        
+        /* width: 375px;         */
         position: relative;            
         height: 350px;
     }  
@@ -1291,14 +1291,14 @@ body{
     .Bubbles .Clogo10{        
         width: 91px;
         top: 152px;
-        left: 276px;        
+        left: 250px;        
     }
     .Our_Customers_Logo button{
         margin-top: 20px;
         width: 111px;
     }
  }
- @media screen and (max-width:376px) {    
+ /* @media screen and (max-width:376px) {    
     .Our_Customers_Logo .Bubbles{ 
         margin: auto;
         overflow: hidden;
@@ -1323,7 +1323,7 @@ body{
         top: 20px;
         left: 20px;        
     }
- }
+ } */
 
 @keyframes bounce {
    0%{
