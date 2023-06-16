@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <link rel="stylesheet" href="./contactUs.css" />
+    <link rel="stylesheet" href="./footer.css">
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"
       async
@@ -105,7 +105,7 @@
     <footer>
       <div class="F1">
         <div>
-          <img src="./assets/logos/g10.svg" />
+          <img src="./assets/favicon.png"/>
           <p>
             Generate outside the box thinking with the possibility to targtet
             the low.
@@ -131,10 +131,15 @@
             Generate outside the box thinking with the possibility to targtet
             the low
           </p>
-          <div>
-            <input placeholder="Enter Email..." />
-            <button>Submit</button>
-          </div>
+          <form>
+            <input
+              class="FooterEmail"
+              type="email"
+              placeholder="Enter Email..."
+              required
+            />
+            <button type="button" class="footerSubmit">Submit</button>
+          </form>
         </div>
         <div class="FCT4">
           <h3>Our Services</h3>
@@ -152,14 +157,17 @@
         </div>
       </div>
       <div class="F2">
-        <p>&#169; 2023 Hackit. All Rights Reserved.</p>
-        <div class="Developer">
-          <p>Developed by Aceassured</p>
-          <div class="SocialLogo">
+        <div class="SocialLogo">
+          <div>
             <img src="./assets/svgs/Logo (1).svg" />
             <img src="./assets/svgs/Logo (2).svg" />
             <img src="./assets/svgs/Logo.svg" />
-          </div>
+            <img src="./assets/svgs/log.svg">
+          </div>            
+          <p>&#169; 2023 Hackit. All Rights Reserved.</p>
+        </div>          
+        <div class="Developer">
+          <p>Developed by Aceassured</p>            
         </div>
       </div>
     </footer>
@@ -194,24 +202,33 @@
             Generate outside the box thinking with the possibility to targtet
             the low
           </p>
-          <div>
-            <input placeholder="Enter Email..." />
-            <button>Submit</button>
-          </div>
+          <form>
+            <input
+              class="FooterEmail"
+              type="email"
+              placeholder="Enter Email..."
+              required
+            />
+            <button type="button" class="footerSubmit">Submit</button>
+          </form>
         </div>
         <div class="F2">
-          <p class="Freserved">&#169; 2023 Hackit. All Rights Reserved.</p>
-          <div class="Developer">
-            <p>Developed by Aceassured</p>
-            <div class="SocialLogo">
+          <div class="SocialLogo">
+            <div>
               <img src="./assets/svgs/Logo (1).svg" />
               <img src="./assets/svgs/Logo (2).svg" />
               <img src="./assets/svgs/Logo.svg" />
-            </div>
+              <img src="./assets/svgs/log.svg">
+            </div>              
+            <p class="Freserved">&#169; 2023 Hackit. All Rights Reserved.</p>
+          </div>                        
+          <div class="Developer">
+            <p>Developed by Aceassured</p>              
           </div>
         </div>
       </div>
     </footer>
+
     <script src="./common.js"></script>
   </body>
 </html>
