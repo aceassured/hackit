@@ -50,7 +50,7 @@ body{
     display: none;
 }
 
-@media screen and (max-width:3840px) and (min-width:2256px) {
+@media screen and (max-width:3840px) and (min-width:2256px) {    
     .Headers{
         width: 1609px;              
         margin: auto;
@@ -581,8 +581,9 @@ body{
 /* -------------------------------------Why HackIt-------------------------------------- */
 
 .Why_Hackit{       
-    margin-top: 141px;
-    height: auto;    
+    margin: 141px 0 141px 0;
+
+    
 }
 .Why_Hackit h1{    
     text-align: center;
@@ -691,7 +692,7 @@ body{
 
 
 .Why_Hackit_boxe3 div .desc {
-    margin-top: 50px;
+    margin-top: 30px;
     line-height: 30px;
 }
 
@@ -861,7 +862,8 @@ body{
         display: none;
     }
     .Why_Hackit {        
-        margin-top: 46px;        
+        margin-top: 46px;      
+        margin-bottom: 46px;  
     }
     .Why_Hackit h1 {
         text-align: center;        
@@ -946,6 +948,216 @@ body{
 
 
 /* ---------------------------------------Our Customers------------------------------------------ */
+
+.Our_Customers_Logo h2{
+    text-align: center;
+} 
+.Our_Customers_Logo .Our_Customers_Desc {
+    text-align: center;
+}
+.Our_Customers_Logo .Bubbles{    
+    max-width:1650px;
+    margin: 88px auto;
+    display: flex;    
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;    
+    gap: 30px;
+    padding: 0 50px 0 50px;    
+}
+.Our_Customers_Logo .Bubbles div {
+    width: 13vw;
+    height: 8vw;    
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clogo1 {
+    background-color: #a7c3094d;        
+}
+.Clogo3 {
+    background-color: #1f53a157;
+}
+.Clogo4 {
+    background-color: #22af4a49;
+}
+.Clogo5 {
+    background-color: #ed1d2459;
+}
+.Clogo6 {
+    background-color: #181b2675;
+}
+.Clogo7 {
+    background-color: #0555a062;
+}
+.Clogo8 {
+    background-color: #024e9f6c;
+}
+.Clogo9 {
+    background-color: #fed40163;
+}
+.Clogo10 {
+    background-color: #181b2662;
+}
+.Clogo11 {
+    background-color: #fe0000;
+}
+.Clogo12 {
+    background-color: #ee32386c;
+}
+.Clogo13 {
+    background-color: #5e9e1e52;
+}
+.Clogo14 {
+    background-color: #1b1c1c52;
+}
+.Clogo15 {
+    background-color: #f17c2380;
+}
+.Clogo16 {
+    background-color: #340c646c;
+}
+.Clogo17 {
+    background-color: #0c6aa56c;
+}
+.Clogo18 {
+    background-color: #0096dc71;    
+}
+.Clogo19 {
+    background-color: #22af4a67;    
+}
+.Our_Customers_Logo .Bubbles div img {
+        width: 8vw;
+        height: 8vw;
+}
+.ShowMore {    
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.ShowMore p {
+    color: #437EF7;
+    margin: 0;    
+}
+
+@media screen and (max-width:768px) and (min-width:376px){   
+    .Our_Customers_Desc {
+        display: none;
+    }     
+    .Our_Customers_Logo .Bubbles {        
+        max-width:700px;             
+    }
+    .Our_Customers_Logo .Bubbles div {
+       height: 15vw;
+       width: 26vw;
+    }
+    .Our_Customers_Logo .Bubbles div img{
+        width: 15vw;        
+        height: 15vw;         
+    }
+    .Our_Customers_Logo .Bubbles .Clogo11 {
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo12 {    
+    display: none;    
+   }
+   .Our_Customers_Logo .Bubbles .Clogo13 {
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo14 {    
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo15 {    
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo16 {    
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo17 {    
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo18 {    
+    display: none;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo19 {    
+    display: none;
+   }
+}
+
+@media screen and (max-width:375px) {        
+    .Our_Customers_Desc {
+        display: none;
+    }
+    
+    .Our_Customers_Logo .Bubbles {        
+        max-width: 370px;                
+        margin: 0;
+    }
+    .Our_Customers_Logo .Bubbles div {
+        height: 73px;
+        width: 120px;        
+        margin-bottom: 10px;
+     }
+     .Our_Customers_Logo .Bubbles div img{
+         width: 15vw;        
+         height: 15vw;         
+     }
+     .Our_Customers_Logo .Bubbles .Clogo8 {
+        display: none;
+     }
+     .Our_Customers_Logo .Bubbles .Clogo9 {
+        display: none;
+     }
+     .Our_Customers_Logo .Bubbles .Clogo10 {
+        display: none;
+     }
+
+     .Our_Customers_Logo .Bubbles .Clogo11 {
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo12 {    
+        display: none;    
+       }
+       .Our_Customers_Logo .Bubbles .Clogo13 {
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo14 {    
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo15 {    
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo16 {    
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo17 {    
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo18 {    
+        display: none;
+       }
+       .Our_Customers_Logo .Bubbles .Clogo19 {    
+        display: none;
+       }
+}
+@media screen and (max-width:374px) {
+    .Our_Customers_Logo .Bubbles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Our_Customers_Logo .Bubbles div {
+        width: 120px;
+    }
+}
+
+/*
 .Our_Customers_Logo{
     height: auto;    
     position: relative; 
@@ -1246,8 +1458,7 @@ body{
     .Our_Customers_Logo .Bubbles{         
         max-width: 400px;        
         margin: auto;
-        overflow: hidden;
-        /* width: 375px;         */
+        overflow: hidden;        
         position: relative;            
         height: 350px;
     }  
@@ -1296,34 +1507,7 @@ body{
         margin-top: 20px;
         width: 111px;
     }
- }
- /* @media screen and (max-width:376px) {    
-    .Our_Customers_Logo .Bubbles{ 
-        margin: auto;
-        overflow: hidden;
-        width: auto;        
-        position: relative;    
-        height: 400px;    
-    
-    }  
-    .Bubbles .Clogo1{
-        display: none;
-    }
-    .Bubbles .Clogo2{        
-        display: none;
-    }
-    .Bubbles .Clogo3{
-        display: none;
-    }
-    .Bubbles .Clogo4{
-        display: none;
-    }        
-    .Bubbles .Clogo6{        
-        top: 20px;
-        left: 20px;        
-    }
- } */
-
+ } 
 @keyframes bounce {
    0%{
      transform: translateY(0px);
@@ -1345,7 +1529,7 @@ body{
     100%{
      transform: translateY(0px);
     }   
- }
+ } */
 
 /* ----------------------------------------------------------------Industries-------------------------------------------------------------------------- */
 
