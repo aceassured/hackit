@@ -20,27 +20,38 @@ burger.addEventListener('click', () => {
 const Slider = document.querySelector('.Slider')
 const ArrowLeft = document.querySelector ('.ArrowLeft')
 const ArrowRight = document.querySelector ('.ArrowRight')
+const SliderOuter = document.querySelector('.SliderOuter')
+
+
+console.log(SliderOuter.clientWidth)
+console.log(Slider.clientWidth)
 
 
 
 let values = 0;
-let pusher = 1550;
+let pusher = SliderOuter.clientWidth ;
+
 
 ArrowLeft.addEventListener('click', () => {      
-    if( values < 0){
-        values = values + pusher;
-        Slider.style.transform = `translateX(${values}px)`
-    }
-        
+    console.log(Slider.clientWidth)
+    console.log(values)
+    // if( values < 0){
+    //     values = values + pusher;
+    //     Slider.style.transform = `translateX(${values}px)`
+    // }
+    if(values > -Slider.clientWidth)
+    values -= pusher
+    Slider.style.transform = `translateX(${values}px)`
 })
 
-ArrowRight.addEventListener('click', () => {       
-    if( values > values * 3 ) {
-        values = 0
-        pusher = 1550
-    }    
-    values = values - pusher;     
-    Slider.style.transform = `translateX(${values}px)`    
+ArrowRight.addEventListener('click', () => { 
+    console.log(pusher)       
+    // if( values > values * 3 ) {
+    //     values = 0
+    //     pusher = 1550
+    // }    
+    // values = values - pusher;     
+    // Slider.style.transform = `translateX(${values}px)`    
 })
 
 
