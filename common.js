@@ -30,18 +30,15 @@ console.log(Slider.clientWidth)
 
 let values = 0;
 let pusher = SliderOuter.clientWidth ;
-
+let screenWidth = screen.width
 
 ArrowLeft.addEventListener('click', () => {      
-    console.log(Slider.clientWidth)
-    console.log(values)
+    console.log(screen.width)  
     // if( values < 0){
     //     values = values + pusher;
     //     Slider.style.transform = `translateX(${values}px)`
     // }
-    if(values > -Slider.clientWidth)
-    values -= pusher
-    Slider.style.transform = `translateX(${values}px)`
+    if(screenWidth > )    
 })
 
 ArrowRight.addEventListener('click', () => { 

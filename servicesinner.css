@@ -823,10 +823,7 @@ p {
   align-items: center;
   height: 526px;
   width: 1600px;
-  margin: auto;
-  border: 1px solid #c7c7c7;
-  border-radius: 6px;
-  box-shadow: 0 3px 4px #30475e4b;
+  margin: auto;  
 }
 .SandCS .RPW img {
   width: 105px;
@@ -910,6 +907,7 @@ p {
   }
   .SandCS .RPW {
     width: 1200px;
+    margin: auto;    
   }
   .SandCS .RPW p {
     width: 350px;
