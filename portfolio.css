@@ -517,358 +517,521 @@
 }
 
 
-  /* ---------------------------------------Our Customers------------------------------------------ */
-.Our_Customers_Logo{
-  height: auto;    
-  position: relative; 
-  text-align: center;    
-}
-.Our_Customers_Logo h2{   
-  margin-bottom: 16px;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  position: relative;
-  z-index: -10;
-}
-.Our_Customers_Logo p {
-  margin-bottom: 21px;
-  font-size: 16px;
-  font-weight: 400;
-}
-.Our_Customers_Logo .Bubbles img{    
-  border: solid 1px rgb(173, 171, 171);
-  border-radius:50% ;
-  position: absolute;
-  transition: 2s;
-}
+/* ---------------------------------------Our Customers------------------------------------------ */
 
-.Our_Customers_Logo .Bubbles{ 
+.Our_Customers_Logo h2{
+  text-align: center;
+} 
+.Our_Customers_Logo .Our_Customers_Desc {
+  text-align: center;
+}
+.Our_Customers_Logo .Bubbles{    
+  max-width:1650px;
+  margin: 88px auto;
+  display: flex;    
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;    
+  gap: 30px;
+  padding: 0 50px 0 50px;    
+}
+.Our_Customers_Logo .Bubbles div {
+  width: 13vw;
+  height: 8vw;    
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  overflow: hidden;
-  width: 100%;        
-  position: relative;    
-  height: 500px;    
-  z-index: -10;
 }
 
-.Bubbles .Clogo1{      
-  display: flex;  
-  justify-content: center;    
-  top: 45px;
-  left: 134px;
-  height: 150px;
-  width: 150px;
-  object-fit: contain; 
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;         
+.Clogo1 {
+  background-color: #a7c3094d;        
 }
-.Bubbles .Clogo2{        
-  width: 113px;
-  top: 219px;
-  left: 94px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.Clogo2 {
+  background-color: #0194657a;
 }
-.Bubbles .Clogo3{    
-  width: 113px;
-  top: 173px;
-  left: 283px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo3 {
+  background-color: #1f53a157;
 }
-.Bubbles .Clogo4{
-  width: 152px;    
-  top: 336px;
-  left: 244px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.Clogo4 {
+  background-color: #22af4a49;
 }
-.Bubbles .Clogo5 {        
-  width: 108px;
-  top: 290px;
-  left: 433px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo5 {
+  background-color: #ed1d2459;
 }
-.Bubbles .Clogo6{    
-  width: 113px;
-  top: 80px;
-  left: 433px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo6 {
+  background-color: #181b2675;
 }
-.Bubbles .Clogo7{        
-  width: 152px;
-  top: 169px;
-  left: 622px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.Clogo7 {
+  background-color: #0555a062;
 }
-.Bubbles .Clogo8{    
-  width: 109px;
-  top: 381px;
-  left: 642px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo8 {
+  background-color: #024e9f6c;
 }
-.Bubbles .Clogo9{    
-  width: 113px;
-  top: 80px;
-  left: 811px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo9 {
+  background-color: #fed40163;
 }
-.Bubbles .Clogo10{    
-  width: 152px;
-  top: 286px;
-  left: 843px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.Clogo10 {
+  background-color: #181b2662;
 }
-.Bubbles .Clogo11{
+.Clogo11 {
   background-color: #fe0000;
-  width: 113px;
-  top: 126px;
-  left: 1008px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
 }
-.Bubbles .Clogo12{        
-  width: 152px;
-  top: 286px;
-  left: 1053px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.Clogo12 {
+  background-color: #ee32386c;
 }
-.Bubbles .Clogo13{        
-  width: 147px;
-  top: 64px;
-  left: 1273px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo13 {
+  background-color: #5e9e1e52;
 }
-.Bubbles .Clogo14{        
-  width: 112px;
-  top: 232px;
-  left: 1244px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
-
+.Clogo14 {
+  background-color: #1b1c1c52;
 }
-.Bubbles .Clogo15{        
-  width: 112px;
-  top: 86px;
-  left: 1509px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;  
+.Clogo15 {
+  background-color: #f17c2380;
 }
-.Bubbles .Clogo16{        
-  width: 111px;
-  top: 290px;
-  left: 1509px;
-  animation-name: bounce-back;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;    
-
+.Clogo16 {
+  background-color: #340c646c;
 }
-.Bubbles .Clogo17{        
-  width: 152px;
-  top: 177px;
-  left: 1650px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+.Clogo17 {
+  background-color: #0c6aa56c;
 }
-.Bubbles .Clogo18{            
-  width: 113px;
-  top: 379px;
-  left: 1679px;
-  animation-name: bounce;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;    
-  animation-fill-mode: forwards;    
-  animation-iteration-count: infinite;
+.Clogo18 {
+  background-color: #0096dc71;    
 }
-
-.Our_Customers_Logo button{    
-  position: relative;
-  z-index: -10;
-  font-size: 15px;
-  font-weight: 600;
+.Clogo19 {
+  background-color: #22af4a67;    
+}
+.Clogo20 {
+  background-color: #068fd36e;
+}
+.Clogo21 {
+  background-color: #ffdd006c;
+}
+.Clogo22 {
+  background-color: #089fda60;
+}
+.Clogo23 {
+  background-color: #a8183271;
+}
+.Clogo24 {
+  background-color: #fcb61373;
+}
+.Clogo25 {
+  background-color: #0096dc62;
+}
+.Clogo26 {
+  background-color: #b11015;
+}
+.Clogo27 {
+  background-color: #6d2b944b;
+}
+.Clogo28 {
+  background-color: #f573228c;
+}
+.Clogo29 {
+  background-color: #00000056;
+}
+.Clogo30 {
+  background-color: #8c00526e;
+}
+.Clogo31 {
+  background-color: #0096dc60;
+}
+.Clogo32 {
+  background-color: #f6b5127e;
+}
+.Clogo33 {
+  background-color: #ecb20359;
+}
+.Clogo34 {
+  background-color: #1b459a21;
+}
+.Clogo35 {
+  background-color: #53161d52;
+}
+.Clogo36 {
+  background-color: #0364aa59;
+}
+.Our_Customers_Logo .Bubbles div img {
+      width: 7vw;
+      height: 7vw;
+}
+.ShowMore {    
   margin: auto;
+  width: 100px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;            
-  height: 50px;
-  background-color: transparent;    
+  justify-content: space-between;
+  align-items: center;
   border: none;
+  background-color: transparent;
+}
+.ShowMore p {
   color: #437EF7;
-  gap: 13px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 100px;
-}
-.Our_Customers_Logo button p {
-  margin: 0   ;
+  margin: 0;    
 }
 
-
-@media screen and (max-width:3840px) and (min-width:2256px) {
-  .Our_Customers_Logo .Bubbles{  
-      width: 1900px;        
-      margin: auto;        
-  }    
-}
-@media screen and (max-width:2255px) and (min-width:1920px) { 
-  .Our_Customers_Logo .Bubbles{          
-      width: 1900px;
-      margin: auto;        
-  }
-}
-
-@media screen and (max-width:1919px) and (min-width:1600px) {
-  .Our_Customers_Logo .Bubbles {
-      width: 1500px;        
-      margin: auto;        
-  }
-}
-
-@media screen and (max-width:1599px) and (min-width:1440px) {
-  .Our_Customers_Logo .Bubbles{ 
-      margin: auto;
-      overflow: hidden;
-      max-width: 1243px;        
-      position: relative;    
-      height: 500px;    
-  }
-}
-@media screen and (max-width:1439px) and (min-width:1024px) {    
-  .Our_Customers_Logo .Our_Customers_Desc{
+@media screen and (max-width:768px) and (min-width:425px){   
+  .Our_Customers_Desc {
       display: none;
-  }    
-  .Our_Customers_Logo .Bubbles{ 
-      margin: auto;
-      overflow: hidden;
-      max-width: 1024px;        
-      position: relative;    
-      height: 500px;    
+  }     
+  .Our_Customers_Logo .Bubbles {        
+      max-width:565px;             
   }
-  .Bubbles .Clogo11{
-      display: none;
+  .Our_Customers_Logo .Bubbles div {
+     height: 15vw;
+     width: 34vw;
   }
-}
-@media screen  and (max-width:1023px) {      
-  .Our_Customers_Logo h2{        
-      text-align: center;
-      margin-left: 14px;
-  }  
-  .Our_Customers_Logo .Bubbles{         
-      max-width: 400px;        
-      margin: auto;
-      overflow: hidden;
-      /* width: 375px;         */
-      position: relative;            
-      height: 350px;
-  }  
-  .Bubbles .Clogo1{
-      display: none;
-  }
-  .Bubbles .Clogo2{        
-      display: none;
-  }
-  .Bubbles .Clogo3{
-      display: none;
-  }
-  .Bubbles .Clogo4{
-      display: none;
-  }        
-  .Bubbles .Clogo5{        
-      top: 154px;
-      left: 15px;
-      width: 69px;
-  }    
-  .Bubbles .Clogo6{   
-      width: 72px;     
-      top: 20px;
-      left: 13px;                
-  }    
-  .Bubbles .Clogo7{        
-      width: 92px;
-      top: 78px;
-      left: 135px;                
+  .Our_Customers_Logo .Bubbles div img{
+      width: 15vw;        
+      height: 15vw;         
   }   
-  .Bubbles .Clogo8{
-      top: 210px;
-      left: 134px;        
+  .Our_Customers_Logo .Bubbles .Clogo7 {
+    display: none;
   }
-  .Bubbles .Clogo9{        
-      width: 72px;
-      top: 19.7px;
-      left: 252.63px;                
+  .Our_Customers_Logo .Bubbles .Clogo8 {
+    display: none;
   }
-  .Bubbles .Clogo10{        
-      width: 91px;
-      top: 152px;
-      left: 250px;        
+  .Our_Customers_Logo .Bubbles .Clogo9 {
+    display: none;
   }
-  .Our_Customers_Logo button{
-      margin-top: 20px;
-      width: 111px;
+  .Our_Customers_Logo .Bubbles .Clogo10 {
+    display: none;
   }
+  .Our_Customers_Logo .Bubbles .Clogo11 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo12 {    
+  display: none;    
+ }
+ .Our_Customers_Logo .Bubbles .Clogo13 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo14 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo15 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo16 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo17 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo18 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo19 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo20 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo21 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo22 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo23 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo24 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo25 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo26 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo27 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo28 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo29 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo30 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo31 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo32 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo33 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo34 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo35 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo36 {
+  display: none;
+ }
 }
+
+
+@media screen and (max-width:424px) and (min-width:376px) {
+  .Our_Customers_Desc {
+      display: none;
+  }
+  
+  .Our_Customers_Logo .Bubbles {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;     
+    max-width: 370px;                    
+    
+  }
+  .Our_Customers_Logo .Bubbles div {
+      height: 80px;
+      width: 150px;              
+      border-radius: 0;
+   }
+   .Our_Customers_Logo .Bubbles div img{
+       width: 15vw;        
+       height: 15vw;         
+   }
+   .Our_Customers_Logo .Bubbles .Clogo1 {
+    border-radius: 10px 0 0 0;
+   }   
+   .Our_Customers_Logo .Bubbles .Clogo2 {
+    border-radius: 0 10px 0 0;
+   } 
+   .Our_Customers_Logo .Bubbles .Clogo5 {
+    border-radius: 0 0 0 10px;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo6 {
+    border-radius: 0 0 10px 0;
+   } 
+   .Our_Customers_Logo .Bubbles .Clogo7 {
+    display: none;    
+  }
+  .Our_Customers_Logo .Bubbles .Clogo8 {
+    display: none;
+  }
+  .Our_Customers_Logo .Bubbles .Clogo9 {
+    display: none;
+  }
+  .Our_Customers_Logo .Bubbles .Clogo10 {
+    display: none;
+  }
+  .Our_Customers_Logo .Bubbles .Clogo11 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo12 {    
+  display: none;    
+ }
+ .Our_Customers_Logo .Bubbles .Clogo13 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo14 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo15 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo16 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo17 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo18 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo19 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo20 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo21 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo22 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo23 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo24 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo25 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo26 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo27 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo28 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo29 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo30 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo31 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo32 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo33 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo34 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo35 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo36 {
+  display: none;
+ }
+}
+@media screen and (max-width:375px) {
+  .Our_Customers_Desc {
+    display: none;
+  }
+  .Our_Customers_Logo .Bubbles {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;     
+    max-width: 370px;  
+    margin-top: 0px;                  
+    
+  }
+  .Our_Customers_Logo .Bubbles div {
+      height: 80px;
+      width: 120px;              
+      border-radius: 0;
+   }
+   .Our_Customers_Logo .Bubbles div img{
+       width: 15vw;        
+       height: 15vw;         
+   }
+   .Our_Customers_Logo .Bubbles .Clogo1 {
+    border-radius: 10px 0 0 0;
+   }   
+   .Our_Customers_Logo .Bubbles .Clogo2 {
+      border-radius:  0 10px 0 0;
+   } 
+   .Our_Customers_Logo .Bubbles .Clogo5 {
+    border-radius: 0 0 0 10px;      
+   }
+   .Our_Customers_Logo .Bubbles .Clogo6 {   
+    border-radius: 0 0 10px 0;
+   }
+   .Our_Customers_Logo .Bubbles .Clogo7 {    
+    display: none;
+    
+   }
+   .Our_Customers_Logo .Bubbles .Clogo8 {
+    display: none;
+    
+  }
+  .Our_Customers_Logo .Bubbles .Clogo9 {
+    display: none;
+  }
+  .Our_Customers_Logo .Bubbles .Clogo10 {
+    display: none;
+  }
+  .Our_Customers_Logo .Bubbles .Clogo11 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo12 {    
+  display: none;    
+ }
+ .Our_Customers_Logo .Bubbles .Clogo13 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo14 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo15 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo16 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo17 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo18 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo19 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo20 {    
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo21 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo22 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo23 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo24 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo25 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo26 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo27 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo28 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo29 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo30 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo31 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo32 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo33 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo34 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo35 {
+  display: none;
+ }
+ .Our_Customers_Logo .Bubbles .Clogo36 {
+  display: none;
+ }
+  }
+  
+
 /* @media screen and (max-width:376px) {    
   .Our_Customers_Logo .Bubbles{ 
       margin: auto;
@@ -923,75 +1086,81 @@
 
   /* -------------------------------OurSER--------------------------------------------- */
 
-  .Skillset {
-    margin-top: 93px;
-    text-align: center;
-  }
+.Skillset {
+  margin-top: 93px;
+  text-align: center;
+}
+.SkillsetPara {
+  text-align: center;
+}
+@media screen and (max-width:767px) {
   .SkillsetPara {
-    text-align: center;
+      display: none;        
   }
-  @media screen and (max-width:767px) {
-    .SkillsetPara {
-        display: none;        
-    }
-    .Skillset {
-        display: none;
-    }
+  .Skillset {
+      display: none;
   }
-  @media screen and (min-width:768px) {
-    .SkillsetPara {
-        width: 700px;
-        margin: auto;     
-    }
+}
+@media screen and (min-width:768px) {
+  .SkillsetPara {
+      width: 700px;
+      margin: auto;     
   }
+}
 
 
-  .Arrow {
-    border: 1px solid #A5A5A5;
-    border-radius: 50%;
-    padding: 18px;  
+.Arrow {
+  border: 1px solid #A5A5A5;
+  border-radius: 50%;
+  padding: 1vw;      
+  margin: 1vw;
+}
+.OurSER {   
+  margin-top: 127px;    
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-bottom: 127px;
+  padding: 0 30px 0 30px;    
+}
+.OurSER .SliderOuter {    
+  width: 61vw;  
+  overflow: hidden;      
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.OurSER .Slider {              
+  transition: 0.5s;
+  display: flex;  
+  justify-content: start;
+  align-items: center;
+  gap: 2.55vw;      
+  width: 170vw;        
+}
+.OurSER .Slider img{ 
+  border: 1px solid #C9C9C9; 
+  border-radius: 50%;  
+  width: 7.5vw;
+  padding: 1.25vw;
+}  
+@media screen and (max-width:768px) {
+  .OurSER {        
+      padding: 0;        
   }
-  .OurSER {   
-    margin-top: 127px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    margin-bottom: 127px;
+  .OurSER .SliderOuter {          
+        width: 63vw;          
   }
-  .OurSER .SliderOuter {
-    width: 1500px;  
-    overflow: hidden;  
+  .OurSER .Slider {              
+      /* width: 10vw; */
   }
-  .OurSER .Slider {  
-    margin-left: 830px;
-    transition: 0.5s;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    gap: 118px;  
-    width: 1400px;        
-  }
-  .OurSER .Slider img{ 
-    border: 1px solid #C9C9C9; 
-    border-radius: 50%;  
-    width: 152px;
-    padding: 20px;
-  }
-  @media screen and (max-width:1025px) {
-    .OurCostomer {
-      /* display: none; */
+}
+@media screen and (max-width:767px) {
+  .OurCostomer {
+      display: none;
     }
     .OurSER {
-      /* display: none; */
+      display: none;  
     }  
-  }
-  @media screen and (max-width:767px) {
-    .OurCostomer {
-        display: none;
-      }
-      .OurSER {
-        display: none;
-      }  
-  }
+}
 

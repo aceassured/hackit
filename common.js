@@ -29,26 +29,30 @@ console.log(Slider.clientWidth)
 
 
 let values = 0;
-let pusher = SliderOuter.clientWidth ;
-let screenWidth = screen.width
+let pusher = 63.25;
 
-ArrowLeft.addEventListener('click', () => {      
-    console.log(screen.width)  
-    // if( values < 0){
-    //     values = values + pusher;
-    //     Slider.style.transform = `translateX(${values}px)`
-    // }
-    if(screenWidth > )    
+
+ArrowLeft.addEventListener('click', () => {            
+    if(values === pusher) {                
+        Slider.style.transform = `translateX(-${0}vw)`
+        values = 0                
+    }
+    else if( values <= 0){
+        values = values + pusher;        
+        Slider.style.transform = `translateX(-${values}vw)`
+    }    
 })
 
-ArrowRight.addEventListener('click', () => { 
-    console.log(pusher)       
-    // if( values > values * 3 ) {
-    //     values = 0
-    //     pusher = 1550
-    // }    
-    // values = values - pusher;     
-    // Slider.style.transform = `translateX(${values}px)`    
+ArrowRight.addEventListener('click', () => {     
+    if( values === pusher ) {
+        Slider.style.transform = `translateX(-${0}vw)`
+        values = 0                
+    }
+    else if (values === 0) {
+        console.log(values)
+        values = values + pusher;        
+        Slider.style.transform = `translateX(-${values}vw)`
+    }
 })
 
 
