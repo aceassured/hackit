@@ -3,7 +3,7 @@
 
 
 p {
-    line-height: 27px;
+    line-height: 27px;    
 }
 
 a {
@@ -412,7 +412,7 @@ body{
     position: relative;
     overflow: hidden;
     height: 100vh;
-    background: linear-gradient(to right , #6c353565 , #c50000c4);    
+    background: linear-gradient(to right , #00000011 , #c50000c4);    
 }
 .Home_Part .ThemeVideo {
     width: 100%;    
@@ -978,22 +978,22 @@ body{
     background-color: #a7c3094d;        
 }
 .Clogo3 {
-    background-color: #1f53a157;
+    background-color: #ed1d245b;
 }
 .Clogo4 {
     background-color: #22af4a49;
 }
 .Clogo5 {
-    background-color: #ed1d2459;
+    background-color: #CCDBEC;
 }
 .Clogo6 {
-    background-color: #181b2675;
+    background-color: #7eb2ff46;
 }
 .Clogo7 {
-    background-color: #0555a062;
+    background-color: #CDDDEC;
 }
 .Clogo8 {
-    background-color: #024e9f6c;
+    background-color: #FFDFDF;
 }
 .Clogo9 {
     background-color: #fed40163;
@@ -1005,7 +1005,7 @@ body{
     background-color: #fe0000;
 }
 .Clogo12 {
-    background-color: #ee32386c;
+    background-color: #CEE0EE;
 }
 .Clogo13 {
     background-color: #5e9e1e52;
@@ -1014,7 +1014,7 @@ body{
     background-color: #1b1c1c52;
 }
 .Clogo15 {
-    background-color: #f17c2380;
+    background-color: #D3DDE7;
 }
 .Clogo16 {
     background-color: #340c646c;
@@ -1026,7 +1026,7 @@ body{
     background-color: #0096dc71;    
 }
 .Clogo19 {
-    background-color: #22af4a67;    
+    background-color: #D3EFDB;    
 }
 .Our_Customers_Logo .Bubbles div img {
         width: 8vw;
